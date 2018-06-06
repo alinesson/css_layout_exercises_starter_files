@@ -1,0 +1,43 @@
+main {
+    margin: auto;
+    max-width:800px;
+    font-size: 0;
+    background-color: white;
+}
+
+section > div {
+    display: inline-block;
+    font-size: 0;
+    border: 1px solid black;
+}
+
+.top {
+    height: 200px;
+    width: 50%;
+}
+
+.bottom {
+    height: 300px;
+    width: 33.33%;
+}
+
+.top-one {
+    background-color: green;
+}
+
+.top-two {
+    background-color: blue;
+}
+
+.bottom-one {
+    background-color: gray;
+}
+
+.bottom-two {
+    background-color: black;
+}
+
+.bottom-three {
+    background-color: orange;
+}
+
