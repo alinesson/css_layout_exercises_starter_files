@@ -1,1 +1,158 @@
+.container {
+    /* why was this used instead of just using nav selector? */
+/*
+    padding-left: 60px;
+    padding-right: 60px;
+*/
+}
 
+
+nav {
+    /* what I did */
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: darkgray;
+    
+    /* answer */
+/*
+    height: 60px;
+    background-color: grey;
+    position: fixed;
+    width: 100%;
+*/
+}
+
+nav ul {
+    /* what I did */
+    
+    position: fixed;
+    left: 110px;
+    top: 10px
+    
+    
+    /* answer */
+/*
+    display: inline-block;
+    list-style: none;
+*/
+}
+
+nav li {
+    /* what I did */
+    
+    display: inline-block;
+    padding-left: 10px;
+    top: 35px;
+    left: 100px;
+    
+    
+    /*  answer  */
+/*    display: inline-block;*/
+}
+
+nav li:after {
+    /* what I did */
+    
+    padding-left: 10px;
+    content: "|";
+    
+
+    /* answer */
+/*
+    content: "|";
+    margin-left: 5px;
+*/
+}
+
+nav a:hover {
+    color: black;
+}
+
+/*
+nav .logo {
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+*/
+
+/* what i did  */
+.logo {
+    margin-top: 0px;
+    width: 70px;
+    height: auto;
+}
+
+.clip-circle {
+    /* What i did */
+     clip-path: circle(30px at center);
+    /* How do i get a black border around this? */
+
+    /* answer */
+/*
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+*/
+}
+
+/*
+main {
+    padding-top: 90px;
+    min-width: 1000px;
+}
+*/
+
+body {
+    background: url(../images/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.dotted-border {
+    /*    What I did */
+    
+    height: 300px;
+    width: 600px;
+    border: 10px green dotted;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    
+    /* answer */
+/*
+    margin-top: 150px;
+    width: 600px;
+    height: 300px;
+    position: relative;
+    border: 10px dotted green;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+.animal {
+    position: absolute;
+    width: 200px;
+    height: 200px; 
+}
+
+.cat {
+    top: -90px;
+    left: -90px;
+}
+
+.dog {
+    right: -120px;
+    bottom: -60px;
+}
